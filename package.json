@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "CV website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pats101/Portfolio.git"
+  },
+  "author": "Patrick Tonderai Ganhiwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pats101/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Pats101/Portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^8.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp-terser": "^2.1.0",
+    "imagemin-mozjpeg": "^9.0.0"
+  }
+}
