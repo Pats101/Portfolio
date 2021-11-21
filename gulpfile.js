@@ -1,5 +1,5 @@
-const { watch } = require('browser-sync');
-const { series } = require('gulp'); //src, dest, watch,
+// const { watch } = require('browser-sync');
+const { watch, series } = require('gulp'); //src, dest, watch,
 const gulp = require('gulp');
 const browsersync = require('browser-sync').create();
 const cleanCss = require('gulp-clean-css');
@@ -67,10 +67,10 @@ gulp.task('browsersyncReload', async (cb) => {
 });
 
 // Our Watch task keeps an eye on our files detect change
-gulp.task('', async () => {
-    watch('*.html', browsersyncReload); // change detected in html files
-    watch('src/css/**/*.css', series(minify-css, browsersyncReload)); // if any change is detected in css files then reload. if you have js and css then use []
-});
+// gulp.task('', async () => {
+//     watch('*.html', browsersyncReload); // change detected in html files
+//     watch('src/css/**/*.css', series(minify-css, browsersyncReload)); // if any change is detected in css files then reload. if you have js and css then use []
+// });
 
 // Default Gulp task (My gulp workflow)
-exports.default = series(message, copyHtml, minify-css, syncBrowserServe, watchTask);
+// exports.default = series(message, copyHtml, minify-css, syncBrowserServe, watchTask);
