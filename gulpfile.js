@@ -52,5 +52,7 @@ async function watchTask(){
 };
 
 // Default Gulp task (My gulp workflow)
-// exports.build = build;
 exports.default = series(message, copyHtml, minifyCss, syncBrowserServe, watchTask);
+
+// Build Gulp Tasks
+exports.build = series(copyHtml, minifyCss)
