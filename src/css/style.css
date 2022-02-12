@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #75ffff;
+    background: #2d8080ab;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +187,16 @@ p {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
+}
+
+.about .box .text h6 {
+    text-transform: uppercase;
+    color: #0c2f79;
+    font-size: 12px;
+}
+
+.about .box .text li {
+    font-size: 14px;
 }
 
 .skills .box {
